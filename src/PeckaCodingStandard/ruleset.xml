@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<ruleset name="PeckaDesign">
+
+	<!-- Classes -->
+	<rule ref="Generic.Classes.DuplicateClassName"/>
+
+</ruleset>
+
