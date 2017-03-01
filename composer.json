@@ -3,7 +3,7 @@
     "description": "Coding standard pro PeckaDesign",
     "require": {
         "squizlabs/php_codesniffer": "^2.8",
-        "php": "7.0.*"
+        "php": "7.*"
     },
     "license": "MIT",
     "authors": [
