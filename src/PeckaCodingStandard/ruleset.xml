@@ -5,6 +5,9 @@
 	<rule ref="Generic.Classes.DuplicateClassName"/>
 	<rule ref="Squiz.Classes.LowercaseClassKeywords"/>
 
+	<!-- Files -->
+	<rule ref="Generic.Files.LineEndings"/>	
+	
 	<!-- Functions -->
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
 
