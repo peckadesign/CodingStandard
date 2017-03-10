@@ -25,5 +25,7 @@
 	<!-- PHP -->
 	<rule ref="Generic.PHP.UpperCaseConstant"/>
 
-</ruleset>
+	<!-- WhiteSpace -->
+	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>	
 
+</ruleset>
