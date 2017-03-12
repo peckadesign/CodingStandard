@@ -12,6 +12,7 @@
 	<rule ref="Zend.Files.ClosingTag"/>
 	
 	<!-- Functions -->
+	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
 
 	<!-- NamingConventions -->
