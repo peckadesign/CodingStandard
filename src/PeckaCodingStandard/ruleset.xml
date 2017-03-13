@@ -1,6 +1,9 @@
 <?xml version="1.0" ?>
 <ruleset name="PeckaDesign">
 
+	<!-- Arrays -->
+	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Arrays/TrailingArrayCommaSniff.php"/>
+
 	<!-- Classes -->
 	<rule ref="Generic.Classes.DuplicateClassName"/>
 	<rule ref="Squiz.Classes.LowercaseClassKeywords"/>
@@ -26,6 +29,6 @@
 	<rule ref="Generic.PHP.UpperCaseConstant"/>
 
 	<!-- WhiteSpace -->
-	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>	
+	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 
 </ruleset>
