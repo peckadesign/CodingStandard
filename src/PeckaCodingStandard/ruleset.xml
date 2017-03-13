@@ -12,8 +12,6 @@
 	<rule ref="Zend.Files.ClosingTag"/>
 	
 	<!-- Functions -->
-	<rule ref="Generic.PHP.DeprecatedFunctions"/>
-	<rule ref="Generic.PHP.ForbiddenFunctions"/>
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
 
 	<!-- NamingConventions -->
@@ -25,9 +23,12 @@
 	</rule>
 
 	<!-- PHP -->
+	<rule ref="Generic.PHP.DeprecatedFunctions"/>
+	<rule ref="Generic.PHP.ForbiddenFunctions"/>
 	<rule ref="Generic.PHP.UpperCaseConstant"/>
 
 	<!-- WhiteSpace -->
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>	
 
 </ruleset>
+
