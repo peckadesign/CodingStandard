@@ -32,3 +32,7 @@ Na GitHubu se po spuštění na CI serveru objeví shrnutí výsledků a pod odk
 
 ![Vzorový výstup na GitHubu]
 (doc/example-github.png)
+
+## Integrace CodeSnifferu do PhpStormu
+
+Návod dostupný v [dokumentaci](doc/phpstorm.md).
