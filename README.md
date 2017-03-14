@@ -30,8 +30,7 @@ vendor/bin/phpcs app/ --standard=vendor/pd/coding-standard/src/PeckaCodingStanda
 
 Na GitHubu se po spuštění na CI serveru objeví shrnutí výsledků a pod odkazem `Details` je kompletní výstup nástroje PHP CS
 
-![Vzorový výstup na GitHubu]
-(doc/example-github.png)
+![Vzorový výstup na GitHubu](doc/example-github.png)
 
 ## Integrace CodeSnifferu do PhpStormu
 
