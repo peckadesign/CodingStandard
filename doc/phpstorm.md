@@ -3,15 +3,15 @@
 1. PhpStorm - Preferences - Language & Framewroks - PHP - Code Sniffer
 2. Trojtečka pro výběr interpreteru
 
-![Nastavení CodeSniffer] (phpstorm/code-sniffer-configuration.png)
+![Nastavení CodeSniffer](phpstorm/code-sniffer-configuration.png)
 
 3. Přidat nový interpreter
 
-![PHP interpreter] (phpstorm/code-sniffer-interpreter.png)
+![PHP interpreter](phpstorm/code-sniffer-interpreter.png)
 
 4. Nastavit cestu pro binární soubor CodeSnifferu `vendor/bin/phpcs`
 
-![CodeSniffer file] (phpstorm/code-sniffer-path.png)
+![CodeSniffer file](phpstorm/code-sniffer-path.png)
 
 5. Vše uložit
 6. V nastavení přejít do Editor - Inspections
@@ -20,5 +20,4 @@
 9. Coding standard vybrat Custom
 10. Zvolit trojtečkou vpravo cestu k pravidlům `vendor/pd/coding-standard/src/PeckaCodingStandard/ruleset.xml`. 
 
-![CodeSniffer inspections] (phpstorm/code-sniffer-inspections-select.png)
-
+![CodeSniffer inspections](phpstorm/code-sniffer-inspections-select.png)
