@@ -1,5 +1,7 @@
 <?xml version="1.0" ?>
 <ruleset name="PeckaDesign">
 
+	<!-- TypeHints -->
+	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/DeclareStrictTypesSniff.php"/>
 
 </ruleset>
