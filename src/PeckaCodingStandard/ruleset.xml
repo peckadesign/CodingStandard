@@ -33,6 +33,8 @@
 	<!-- WhiteSpace -->
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 	<rule ref="Squiz.ControlStructures.ControlSignature"/>
+	<rule ref="Generic.Formatting.SpaceAfterCast"/>
+	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/ParameterTypeHintSpacingSniff.php"/>
 
 </ruleset>
 
