@@ -3,6 +3,5 @@
 
 	<!-- TypeHints -->
 	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/DeclareStrictTypesSniff.php"/>
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ClassConstantVisibilitySniff.php"/>
 
 </ruleset>
