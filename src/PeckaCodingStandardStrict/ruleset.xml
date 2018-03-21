@@ -4,4 +4,7 @@
 	<!-- TypeHints -->
 	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/DeclareStrictTypesSniff.php"/>
 
+	<!-- Namespaces -->
+	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UseOnlyWhitelistedNamespacesSniff.php"/>
+
 </ruleset>
