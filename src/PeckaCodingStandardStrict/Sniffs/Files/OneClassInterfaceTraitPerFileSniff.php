@@ -1,7 +1,7 @@
 <?php
 
 
-class PeckaCodingStandardStrict_Sniffs_Files_OneClassInterfaceTraitPerFileSniff implements PHP_CodeSniffer_Sniff
+class PeckaCodingStandardStrict_Sniffs_Files_OneClassInterfaceTraitPerFileSniff implements \PHP_CodeSniffer\Sniffs\Sniff
 {
 
 	public function register()
@@ -10,7 +10,7 @@ class PeckaCodingStandardStrict_Sniffs_Files_OneClassInterfaceTraitPerFileSniff 
 	}
 
 
-	public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
+	public function process(\PHP_CodeSniffer\Files\File $phpcsFile, $stackPtr)
 	{
 		$nextInterface = $phpcsFile->findNext($this->register(), ($stackPtr + 1));
 		if ($nextInterface !== FALSE) {
@@ -20,3 +20,4 @@ class PeckaCodingStandardStrict_Sniffs_Files_OneClassInterfaceTraitPerFileSniff 
 	}
 
 }
+

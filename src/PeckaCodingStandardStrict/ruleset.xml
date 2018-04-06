@@ -6,5 +6,7 @@
 
 	<!-- Namespaces -->
 	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UseOnlyWhitelistedNamespacesSniff.php"/>
+	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/FullyQualifiedGlobalConstantsSniff.php"/>
+	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/FullyQualifiedGlobalFunctionsSniff.php"/>
 
 </ruleset>
