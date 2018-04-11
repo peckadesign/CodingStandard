@@ -1,14 +1,20 @@
 <?xml version="1.0" ?>
 <ruleset name="PeckaDesign">
 
+	<config name="installed_paths" value="../../slevomat/coding-standard"/>
+	
 	<!-- Arrays -->
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Arrays/TrailingArrayCommaSniff.php"/>
+	<rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
 
 	<!-- Classes -->
 	<rule ref="Generic.Classes.DuplicateClassName"/>
 	<rule ref="Squiz.Classes.LowercaseClassKeywords"/>
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Classes/ClassConstantVisibilitySniff.php"/>
+	<rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
+	<rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
 
+	<!-- Exceptions -->
+	<rule ref="SlevomatCodingStandard.Exceptions.DeadCatch"/>
+	
 	<!-- Files -->
 	<rule ref="Generic.Files.ByteOrderMark"/>
 	<rule ref="Generic.Files.LineEndings"/>	
@@ -17,6 +23,14 @@
 	
 	<!-- Functions -->
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
+
+	<!-- Namespaces -->
+	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+		<properties>
+			<property name="searchAnnotations" value="1"/>
+		</properties>
+	</rule>
+	<rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
 
 	<!-- NamingConventions -->
 	<rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
@@ -35,7 +49,6 @@
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 	<rule ref="Squiz.ControlStructures.ControlSignature"/>
 	<rule ref="Generic.Formatting.SpaceAfterCast"/>
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/ParameterTypeHintSpacingSniff.php"/>
+	<rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
 
 </ruleset>
-
