@@ -14,5 +14,9 @@
             "email": "milan.pala@peckadesign.cz"
         }
     ],
-    "minimum-stability": "stable"
+    "autoload-dev": {
+        "psr-4": {
+            "PdTests\\": "tests/"
+        }
+    }
 }
