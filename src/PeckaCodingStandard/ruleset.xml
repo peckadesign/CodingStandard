@@ -23,6 +23,7 @@
 
 	<!-- Functions -->
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
+	<rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
 
 	<!-- Namespaces -->
 	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
