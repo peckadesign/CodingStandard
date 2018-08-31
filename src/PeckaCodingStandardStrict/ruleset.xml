@@ -1,12 +1,18 @@
 <?xml version="1.0" ?>
 <ruleset name="PeckaDesign">
 
+	<config name="installed_paths" value="../../slevomat/coding-standard,../../escapestudios/symfony2-coding-standard"/>
+
+	<!-- Control structures -->
+	<rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition" />
+	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
+
 	<!-- TypeHints -->
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/DeclareStrictTypesSniff.php"/>
+	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
 
 	<!-- Namespaces -->
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UseOnlyWhitelistedNamespacesSniff.php"/>
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/FullyQualifiedGlobalConstantsSniff.php"/>
-	<rule ref="../../../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/FullyQualifiedGlobalFunctionsSniff.php"/>
+	<rule ref="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
+	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
+	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>
 
 </ruleset>
