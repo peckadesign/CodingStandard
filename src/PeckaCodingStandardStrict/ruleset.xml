@@ -16,4 +16,7 @@
 	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
 	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>
 
+	<!-- Whitespaces -->
+	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
+
 </ruleset>
