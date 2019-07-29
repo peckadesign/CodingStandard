@@ -15,6 +15,12 @@
 	<rule ref="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
 	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
 	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>
+	<rule ref="SlevomatCodingStandard.Namespaces.NamespaceSpacing">
+		<properties>
+			<property name="linesCountBeforeNamespace" value="1" />
+			<property name="linesCountAfterNamespace" value="1" />
+		</properties>
+	</rule>
 
 	<!-- Whitespaces -->
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
