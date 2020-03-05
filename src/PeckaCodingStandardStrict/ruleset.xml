@@ -6,10 +6,13 @@
 	<!-- Control structures -->
 	<rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition" />
 	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
-	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowEqualOperators"/>
+
+	<!-- Operators -->
+	<rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
 
 	<!-- TypeHints -->
 	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
+	<rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint"/>
 
 	<!-- Namespaces -->
 	<rule ref="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
