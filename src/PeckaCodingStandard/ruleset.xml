@@ -19,6 +19,12 @@
 			<property name="maxLinesCountBeforeWithoutComment" value="1"/>
 		</properties>
 	</rule>
+	<rule ref="SlevomatCodingStandard.Classes.MethodSpacing">
+		<properties>
+			<property name="minLinesCount" value="2"/>
+			<property name="maxLinesCount" value="2"/>
+		</properties>
+	</rule>
 
 	<!-- Exceptions -->
 	<rule ref="SlevomatCodingStandard.Exceptions.DeadCatch"/>
