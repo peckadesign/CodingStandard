@@ -13,6 +13,7 @@
 	<!-- TypeHints -->
 	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
 	<rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint"/>
+	<rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint"/>
 
 	<!-- Namespaces -->
 	<rule ref="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
