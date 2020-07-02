@@ -12,6 +12,8 @@ class TrailingArrayComma
 			'one',
 			'two',
 		];
+
+		\var_dump($array);
 	}
 
 }
