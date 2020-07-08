@@ -30,6 +30,12 @@
 			<property name="linesCountBetweenMembers" value="2"/>
 		</properties>
 	</rule>
+	<rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
+		<properties>
+			<property name="linesCountAfterOpeningBrace" value="1"/>
+			<property name="linesCountBeforeClosingBrace" value="1"/>
+		</properties>
+	</rule>
 
 	<!-- Exceptions -->
 	<rule ref="SlevomatCodingStandard.Exceptions.DeadCatch"/>
