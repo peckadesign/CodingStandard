@@ -78,6 +78,7 @@
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 	<rule ref="Squiz.ControlStructures.ControlSignature"/>
 	<rule ref="Generic.Formatting.SpaceAfterCast"/>
+	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
 
 	<!-- TypeHints -->
 	<rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
