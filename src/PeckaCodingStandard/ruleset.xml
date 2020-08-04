@@ -70,6 +70,7 @@
 	<rule ref="Generic.PHP.DeprecatedFunctions"/>
 	<rule ref="Generic.PHP.ForbiddenFunctions"/>
 	<rule ref="Generic.PHP.UpperCaseConstant"/>
+	<rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>
 
 	<!-- NewLines -->
 	<rule ref="Symfony.Formatting.BlankLineBeforeReturn"/>
@@ -78,6 +79,7 @@
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 	<rule ref="Squiz.ControlStructures.ControlSignature"/>
 	<rule ref="Generic.Formatting.SpaceAfterCast"/>
+	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
 
 	<!-- TypeHints -->
 	<rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
