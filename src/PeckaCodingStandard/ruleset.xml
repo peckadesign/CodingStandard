@@ -85,4 +85,10 @@
 	<rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
 	<rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
 
+	<!-- Variables -->
+	<rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+		<properties>
+			<property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="1" />
+		</properties>
+	</rule>
 </ruleset>
