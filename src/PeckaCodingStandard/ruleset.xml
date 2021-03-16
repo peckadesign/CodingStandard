@@ -49,6 +49,7 @@
 	<!-- Functions -->
 	<rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
 	<rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
+	<rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall "/>
 
 	<!-- Namespaces -->
 	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
