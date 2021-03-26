@@ -1,4 +1,8 @@
-test:
+composer:
+	composer validate
+	composer update --no-interaction --prefer-dist
+
+run-tests:
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Success/
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandardStrict/ruleset.xml tests/Success/
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Arrays/TrailingArrayComma.php | tests/errorNumber.sh 1
