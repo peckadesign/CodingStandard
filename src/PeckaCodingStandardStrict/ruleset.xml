@@ -11,7 +11,11 @@
 	<rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
 
 	<!-- TypeHints -->
-	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
+	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
+		<properties>
+			<property name="declareOnFirstLine" value="1" />
+		</properties>
+	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint"/>
 
 	<!-- Namespaces -->

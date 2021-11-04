@@ -1,12 +1,11 @@
 <?php declare(strict_types = 1);
 
+namespace PdTests\Success\Classes;
+
 final class ClassMemberSpacing
 {
 
-	/**
-	 * @var int|string
-	 */
-	private $number;
+	private int $number;
 
 
 	public function getNumber(): int

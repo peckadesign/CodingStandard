@@ -4,7 +4,7 @@ final class ClassMemberSpacing
 {
 
 	/**
-	 * @var int
+	 * @var int|string
 	 */
 	private $number;
 

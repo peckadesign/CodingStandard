@@ -10,7 +10,6 @@
 	<rule ref="Generic.Classes.DuplicateClassName"/>
 	<rule ref="Squiz.Classes.LowercaseClassKeywords"/>
 	<rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
-	<rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
 	<rule ref="SlevomatCodingStandard.Classes.PropertySpacing">
 		<properties>
 			<property name="minLinesCountBeforeWithComment" value="1"/>
