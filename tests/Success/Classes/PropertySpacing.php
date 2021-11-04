@@ -5,14 +5,8 @@ namespace PdTests\Success\Classes;
 class PropertySpacing
 {
 
-	/**
-	 * @var int|string
-	 */
-	public $element;
+	public int $element;
 
-	/**
-	 * @var int|string
-	 */
-	public $element2;
+	public int $element2;
 
 }
