@@ -3,10 +3,7 @@
 final class ClassMemberSpacing
 {
 
-	/**
-	 * @var int
-	 */
-	private $number;
+	private int $number;
 
 	public function getNumber(): int
 	{

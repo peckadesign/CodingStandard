@@ -7,7 +7,6 @@ run-tests:
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandardStrict/ruleset.xml tests/Success/
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Arrays/TrailingArrayComma.php | tests/errorNumber.sh 1
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Classes/ClassConstantVisibility.php | tests/errorNumber.sh 1
-	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Classes/UnusedPrivateElements.php | tests/errorNumber.sh 2
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Classes/PropertySpacing.php | tests/errorNumber.sh 2
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Classes/MethodSpacingSniff.php | tests/errorNumber.sh 2
 	./vendor/bin/phpcs --standard=src/PeckaCodingStandard/ruleset.xml tests/Failure/Classes/ClassMemberSpacing.php | tests/errorNumber.sh 1
