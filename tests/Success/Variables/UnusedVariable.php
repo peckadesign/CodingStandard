@@ -5,5 +5,5 @@ $hello = 'Ahoj';
 echo $hello;
 
 foreach ([] as $k => $v) {
-	echo $v;
+	echo $k;
 }
