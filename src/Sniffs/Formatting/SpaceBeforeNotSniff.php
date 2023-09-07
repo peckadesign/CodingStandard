@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Pd\CodingStandard\Sniffs\Formatting;
+namespace PdCodingStandard\Sniffs\Formatting;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;
@@ -31,7 +31,7 @@ class SpaceBeforeNotSniff implements Sniff
 	 * Allow newlines instead of spaces.
 	 *
 	 */
-	public bool $ignoreNewlines = false;
+	public bool $ignoreNewlines = true;
 
 
 	/**

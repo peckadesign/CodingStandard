@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Pd\\CodingStandard\\": "src/"
+            "PdCodingStandard\\": "src/"
         }
     },
     "autoload-dev": {
