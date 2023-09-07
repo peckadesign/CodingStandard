@@ -151,16 +151,8 @@
 
     <!-- Formatting -->
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
-    <rule ref="Generic.Formatting.SpaceAfterNot">
-        <properties>
-            <property name="spacing" value="1" />
-        </properties>
-    </rule>
-    <rule ref="../Sniffs/Formatting/SpaceBeforeNotSniff.php">
-        <properties>
-            <property name="ignoreNewlines" value="true" />
-        </properties>
-    </rule>
+    <rule ref="Generic.Formatting.SpaceAfterNot"/>
+    <rule ref="../Sniffs/Formatting/SpaceBeforeNotSniff.php"/>
 
     <!-- Variables -->
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
