@@ -156,7 +156,11 @@
             <property name="spacing" value="1" />
         </properties>
     </rule>
-    <rule ref="../Sniffs/Formatting/SpaceBeforeNotSniff.php"/>
+    <rule ref="../Sniffs/Formatting/SpaceBeforeNotSniff.php">
+        <properties>
+            <property name="ignoreNewlines" value="true" />
+        </properties>
+    </rule>
 
     <!-- Variables -->
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
