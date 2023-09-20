@@ -152,7 +152,6 @@
     <!-- Formatting -->
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
     <rule ref="Generic.Formatting.SpaceAfterNot"/>
-    <rule ref="../Sniffs/Formatting/SpaceBeforeNotSniff.php"/>
 
     <!-- Variables -->
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
